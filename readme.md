@@ -1,2 +1,2 @@
 # USB morse key using Pro Micro 
-_Main.ino_ is the main script. Others are refered in _Main.ino_.
+*Main.ino* is the main script. Others are refered in *Main.ino*.
