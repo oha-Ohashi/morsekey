@@ -49,8 +49,8 @@ void shiftAct(byte b){
      silent = !silent;
      if(!silent) switchon();
   }else if(b == 4){
-     Keyboard.print("sca00046");
+     Keyboard.print("your username");
   }else if(b == 5){
-     Keyboard.print("qdp312QH");
+     Keyboard.print("your password");
   }
 }
