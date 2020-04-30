@@ -1,9 +1,15 @@
 #include <Keyboard.h>
 
-const int sw_pins[3] = {7,8,9.};  // right left yellow
-const int bp_pin = 6;
-const int bp_freq = 880;
-const int bp_span = 90;        //15PARIS/min
+///////////////adjust for your own build///////////////////
+const int sw_pins[3] = {7,8,9.};  // right, left, shifter
+const int bp_pin = 6;             //pin for speaker
+const int bp_freq = 880;          //speaker frequency
+const int paris_m = 10;           //how many PARIS(50dots) per min.
+                                  //check Wikipedia.
+const int bp_span = 60000 / (50*paris_m);
+                                  //how many milliseconds a dot is.
+////////////////////////////////////////////////////////////
+
 long lastbtt, lastbtt_shift;
 byte charbuffI = 0;
 char charbuffC[24];
