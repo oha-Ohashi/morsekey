@@ -2,7 +2,7 @@
 This depository can be frequently updated. Check this as often as possible, if you want to get the newest version.
 
 ### Required hardware
-  3x switches
+  3x switches  
   1x speaker
   That's all:)
 
